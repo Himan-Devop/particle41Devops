@@ -4,7 +4,8 @@ This repository contains a production-ready deployment of a containerized FastAP
 The solution leverages ECS Fargate for serverless container orchestration, ensuring high availability and security while minimizing operational overhead.
 
 ---
-
+## Repo Structure
+```
 .
 ├── app/
 │   ├── app.py           
@@ -15,6 +16,8 @@ The solution leverages ECS Fargate for serverless container orchestration, ensur
     ├── variables.tf     
     ├── outputs.tf       
 └── README.md        
+```
+---
 
 ## Architecture & Design Decisions
 I prioritized low-complexity infrastructure and implemented security and health checks.
